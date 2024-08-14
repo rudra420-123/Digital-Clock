@@ -16,3 +16,25 @@ body {
     font-size: 150px;
     white-space: nowrap;
 }
+
+.container span {
+    font-size: 13rem;
+}
+
+@media (max-width:1250px) {
+    .container span {
+        font-size: 10rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .container span {
+        font-size: 7rem;
+    }
+}
+
+@media (max-width:800px) {
+    .container span {
+        font-size: 3rem;
+    }
+}
